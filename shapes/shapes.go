@@ -21,3 +21,7 @@ func (rectangle Rectangle) Area() float64 {
 func (circle Circle) Area() float64 {
 	return math.Pi * math.Pow(circle.Radius, 2)
 }
+
+type Shape interface {
+	Area() float64
+}
