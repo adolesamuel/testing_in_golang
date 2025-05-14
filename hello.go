@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 	fmt.Println(Hello("Sam", ""))
+
+	ProcessChan()
+
 }
 
 const englishHelloPrefix = "Hello, "
